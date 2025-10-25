@@ -1,35 +1,38 @@
-# 👋 Hello, I'm Joshua Lopez (pugarioo)
+```javascript
+const me = {
+    name: "Joshua Lopez",
 
-Welcome to my GitHub profile!  
-I'm a student and aspiring software engineer with a passion for technology, movies, and music.
+    role: "Computer Science Student | Aspiring Software Developer",
 
----
+    education: {
+        program: "Bachelor of Science in Computer Science",
+        year: "3",
+        university: "University of Cabuyao",
+    },
 
-## 🚀 About Me
+    stack: ["javascript", "python", "java", "HTML", "CSS"],
 
-- **Role:** Student | Aspiring Software Engineer
-- **Languages:** JavaScript, Python, Java, HTML, CSS
-- **Interests:** Movies, Music
+    interests: [
+        "Software Development",
+        "Backend Development",
+        "Artificial Intelligence",
+        "LLMs",
+        "Automation",
+        "Movies",
+        "Music",
+    ],
 
----
+    contact: {
+        linkedin: "linkedin.com/in/joshua-lopez-289551331",
+        github: "github.com/pugarioo",
+        facebook: "facebook.com/pugarioo",
+        instagram: "@pugario_",
+    },
 
-## ⚡ Projects
+    isAlive: true,
 
-- **traveltrove:** A project that explores travel-related ideas and solutions.
-- **book-management:** A system designed to help manage books efficiently.
-
----
-
-## 🌱 Currently Learning
-
-I'm always expanding my knowledge in web development, backend systems, and modern programming practices.
-
----
-
-## 📫 Contact
-
-Feel free to connect or check out my work here on GitHub.
-
----
-
-Thank you for visiting!
+    get isLearning() {
+        return this.isAlive;
+    }
+}
+```
